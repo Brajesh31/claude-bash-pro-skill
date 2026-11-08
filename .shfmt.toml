@@ -1,0 +1,6 @@
+# shfmt formatting defaults
+language-dialect = "bash"
+indent = 2
+binary-next-line = false
+switch-case-indent = true
+space-redirects = true
