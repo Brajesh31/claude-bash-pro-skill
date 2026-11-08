@@ -30,3 +30,7 @@ Ask your AI coding assistant to use **Bash Pro** when working on a related task.
 ## License
 
 MIT License. See [LICENSE](LICENSE).
+
+## Additional Resources
+
+Added `.pre-commit-config.yaml`, `.shellcheckrc`, `.shfmt.toml`, `.editorconfig`, `scripts/example.sh`, and a Bats smoke test under `test/`. The pre-commit hooks expect ShellCheck, shfmt, and checkbashisms to be installed.
