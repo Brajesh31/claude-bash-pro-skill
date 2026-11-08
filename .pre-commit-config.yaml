@@ -1,0 +1,19 @@
+repos:
+  - repo: local
+    hooks:
+      - id: shellcheck
+        name: shellcheck
+        entry: shellcheck
+        language: system
+        types: [shell]
+      - id: shfmt
+        name: shfmt
+        entry: shfmt
+        args: [-d]
+        language: system
+        types: [shell]
+      - id: checkbashisms
+        name: checkbashisms
+        entry: checkbashisms
+        language: system
+        types: [shell]
