@@ -33,4 +33,4 @@ MIT License. See [LICENSE](LICENSE).
 
 ## Additional Resources
 
-Added `.pre-commit-config.yaml`, `.shellcheckrc`, `.shfmt.toml`, `.editorconfig`, `scripts/example.sh`, and a Bats smoke test under `test/`. The pre-commit hooks expect ShellCheck, shfmt, and checkbashisms to be installed.
+Added `.pre-commit-config.yaml`, `.shellcheckrc`, `.editorconfig`, `scripts/example.sh`, and a Bats smoke test under `test/`. The pre-commit hooks expect ShellCheck, shfmt, and checkbashisms to be installed.
