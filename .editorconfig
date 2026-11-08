@@ -11,4 +11,8 @@ indent_size = 2
 trim_trailing_whitespace = false
 
 [*.sh]
+indent_style = space
+indent_size = 2
 shell_variant = bash
+switch_case_indent = true
+space_redirects = true
