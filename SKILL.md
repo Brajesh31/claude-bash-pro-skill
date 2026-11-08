@@ -210,7 +210,7 @@ description: 'Master of defensive Bash scripting for production automation, CI/C
 - CI/CD pipeline configurations (GitHub Actions, GitLab CI) for automated testing
 - Documentation generated with shdoc and man pages with shellman
 - Structured project layout with reusable library functions and dependency management
-- Static analysis configuration files (.shellcheckrc, .shfmt.toml, .editorconfig)
+- Static analysis configuration files (.shellcheckrc and .editorconfig; shfmt reads formatting options from EditorConfig)
 - Performance benchmarks and profiling reports for critical workflows
 - Security review with SAST, secrets scanning, and vulnerability reports
 - Debugging utilities with trace modes, structured logging, and observability
