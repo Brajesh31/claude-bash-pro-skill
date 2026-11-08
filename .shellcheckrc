@@ -1,0 +1,3 @@
+# Keep shellcheck behavior consistent across contributors.
+# Prefer explicit per-file shebangs and shell dialect declarations.
+enable=all
